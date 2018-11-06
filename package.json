@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/allexfree/miushi/issues"
   },
-  "homepage": "https://github.com/allexfree/miushi#readme"
+  "homepage": "https://github.com/allexfree/miushi#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-scss": "^1.4.0",
+    "node-normalize-scss": "^8.0.0"
+  }
 }
