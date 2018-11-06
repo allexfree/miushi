@@ -1,0 +1,19 @@
+{
+  "name": "miushi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/allexfree/miushi.git"
+  },
+  "author": "allexfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allexfree/miushi/issues"
+  },
+  "homepage": "https://github.com/allexfree/miushi#readme"
+}
