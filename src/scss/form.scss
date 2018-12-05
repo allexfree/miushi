@@ -1,0 +1,128 @@
+.main-form {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 17px 39px;
+  background-image: url("../img/form-bg-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.main-form__header-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.main-form__header-text {
+  margin-top: 0;
+  margin-bottom: 27px;
+  font-family: "LemonTuesday", "Arial", "Helvetica", sans-serif;
+  font-size: 44px;
+  line-height: 1.25;
+  color: #ffffff;
+  & span {
+    display: block;
+  }
+}
+
+.main-form__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  border: none;
+}
+
+.main-form__input {
+  width: 100%;
+  margin-bottom: 19px;
+  padding: 7px 14px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  line-height: 24px;
+  color: #ffffff;
+  box-sizing: border-box;
+  &:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  &::placeholder {
+    color: #ffffff;
+  }
+
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+.main-form__btn {
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+  padding: 15px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #fd4f10;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main-form__footer-text {
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+@media (min-width: 750px) {
+  .main-form {
+    background-image: url("../img/form-bg-tablet.jpg");
+    margin-bottom: 36px;
+    padding: 69px 15px 70px;
+    input:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .main-form__group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 19px;
+  }
+
+  .main-form__header-title {
+    margin-bottom: 14px;
+  }
+
+  .main-form__header-text {
+    margin-bottom: 39px;
+    font-size: 54px;
+    line-height: 30.1px;
+    span {
+      display: inline-block;
+    }
+  }
+
+  .main-form__input {
+    width: 31%;
+  }
+
+  .main-form__btn {
+    width: 221px;
+  }
+
+  .main-form__input {
+    margin-bottom: 0;
+  }
+
+  .main-form__btn {
+    margin: 0;
+  }
+}

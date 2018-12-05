@@ -1,0 +1,133 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 15px 89px;
+  box-sizing: border-box;
+}
+
+.about-title {
+  margin-top: 0;
+  margin-bottom: 58px;
+  font-family: "LemonTuesday", "Arial", "Helvetica", sans-serif;
+  font-size: 44px;
+  line-height: 0.65;
+  color: #32505a;
+}
+
+.about-descr {
+  margin-top: 0;
+  margin-bottom: 33px;
+  font-family: "OpenSans", "Arial", "Helvetica", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #32505a;
+  span {
+    text-transform: uppercase;
+  }
+}
+
+.about-text {
+  p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #4c4c4c;
+    line-height: 1.43;
+  }
+
+  p:nth-child(n+4) {
+    display: none;
+  }
+}
+
+.about-text--open p:nth-child(n+5) {
+  display: flex;
+}
+
+.about-btn {
+  display: block;
+  width: 290px;
+  transform: translateY(14px);
+  padding: 10px 0;
+  font-weight: 600;
+  color: #fd4f10;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #fd4f10;
+  border-radius: 5px;
+}
+
+@media (min-width: 750px) {
+  .about {
+    margin-bottom: 100px;
+  }
+
+  .about-title {
+    position: relative;
+    margin-bottom: 62px;
+    letter-spacing: 1.3px;
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      width: 101px;
+      height: 37px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &::before {
+      left: -125px;
+      background-image: url("../img/plexus-left.svg");
+    }
+
+    &::after {
+      right: -133px;
+      background-image: url("../img/plexus-right.svg");
+    }
+  }
+
+  .about-descr {
+    margin-bottom: 62px;
+    padding-right: 25px;
+    font-size: 22px;
+  }
+
+  .about-text {
+    position: relative;
+    width: 720px;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 4px;
+      right: 0;
+      width: 220px;
+      height: 478px;
+      border-radius: 10px;
+      background-image: url("../img/about-img.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    p {
+      &:nth-child(n+4) {
+        display: flex;
+      }
+
+      &:last-child {
+        display: none;
+      }
+
+      &:not(:nth-child(5)) {
+        padding-right: 35%;
+      }
+    }
+  }
+
+  .about-btn {
+    display: none;
+  }
+}

@@ -1,3 +1,72 @@
+html {
+  height: 100%;
+}
+
 body {
-  background-color: red;
+  position: relative;
+
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: 320px;
+  height: 100%;
+  margin: 0 auto;
+
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "OpenSans", "Arial", "Helvetica", sans-serif;
+  color: #111111;
+  word-wrap: break-word;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  border: none;
+}
+
+.visually-hidden,
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
+  clip: rect(0 0 0 0);
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-open {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.new {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  &:before {
+    content: "new";
+    position: absolute;
+    top: 18px;
+    left: -41px;
+    width: 150px;
+    padding: 7px 0;
+    font-family: "RobotoSlab", "Arial", "Helvetia", sans-serif;
+    font-size: 16px;
+    line-height: 14px;
+    color: #ffffff;
+    background-color: #1fba0a;
+    text-align: center;
+    transform: rotate(-45deg);
+  }
 }

@@ -1,0 +1,243 @@
+.adv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+.adv-title {
+  margin-top: 0;
+  margin-bottom: 150px;
+  font-family: "LemonTuesday", "Arial", "Helvetica", sans-serif;
+  font-size: 44px;
+  line-height: 1.2;
+  color: #32505a;
+  text-align: center;
+  & span {
+    display: block;
+  }
+}
+
+.adv-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0 68px;
+  list-style: none;
+}
+
+
+
+.adv-list__item-text {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 107px;
+  font-size: 16px;
+  line-height: 28.5px;
+  text-align: center;
+}
+
+
+
+.adv-list__item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -85px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    width: 68px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  & p {
+    margin-bottom: 142px;
+  }
+
+  &:first-child {
+    &::before {
+      top: -87px;
+      background-image: url("../img/kitchen.svg");
+      background-position: 5% center;
+    }
+
+    p {
+      margin-bottom: 183px;
+    }
+  }
+
+  &:nth-child(2) {
+    &::before {
+      top: -98px;
+      height: 80px;
+      background-image: url("../img/rice.svg");
+    }
+
+    p {
+      margin-bottom: 153px;
+    }
+  }
+
+  &:nth-child(3)::before {
+    top: -95px;
+    height: 80px;
+    transform: rotate(-25deg);
+    background-image: url("../img/pizza.svg");
+  }
+}
+
+.adv-list li:nth-child(n+4) {
+  display: none;
+}
+
+.adv-list--open li:nth-child(n+4) {
+  display: flex;
+}
+
+.adv-list--open .adv-list__item {
+  &:nth-child(4)::before {
+    background-image: url("../img/dish.svg");
+  }
+
+  &:nth-child(5)::before {
+    background-image: url("../img/octopus.svg");
+  }
+
+  &:nth-child(6)::before {
+    background-image: url("../img/like.svg");
+  }
+
+  &:nth-child(7)::before {
+    background-image: url("../img/money.svg");
+  }
+
+  &:nth-child(8)::before {
+    background-image: url("../img/knife.svg");
+  }
+
+  &:nth-child(9)::before {
+    background-image: url("../img/fish.svg");
+  }
+
+  &:last-child::before {
+    background-image: url("../img/feather.svg");
+  }
+}
+
+.adv-btn {
+  display: block;
+  width: 290px;
+  transform: translateY(-74px);
+  padding: 10px 0;
+  font-weight: 600;
+  color: #fd4f10;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #fd4f10;
+  border-radius: 5px;
+}
+
+@media (min-width: 750px) {
+  .adv {
+    margin-bottom: 84px;
+  }
+
+  .adv-title {
+    position: relative;
+    letter-spacing: 1.5px;
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 5px;
+      width: 101px;
+      height: 37px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &::before {
+      left: -119px;
+      background-image: url("../img/plexus-left.svg");
+    }
+
+    &::after {
+      right: -119px;
+      background-image: url("../img/plexus-right.svg");
+    }
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .adv-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 750px;
+    padding: 0;
+    li {
+      width: 187px;
+      padding: 0 10px;
+    }
+  }
+
+  .adv-list li:nth-child(n+4) {
+    display: flex;
+  }
+
+  .adv-list .adv-list__item {
+    &:nth-child(4)::before {
+      background-image: url("../img/dish.svg");
+    }
+
+    &:nth-child(5)::before {
+      background-image: url("../img/octopus.svg");
+    }
+
+    &:nth-child(6)::before {
+      background-image: url("../img/like.svg");
+    }
+
+    &:nth-child(7)::before {
+      background-image: url("../img/money.svg");
+    }
+
+    &:nth-child(8)::before {
+      background-image: url("../img/knife.svg");
+    }
+
+    &:nth-child(9)::before {
+      background-image: url("../img/fish.svg");
+    }
+
+    &:last-child {
+      display: block;
+      width: 100%;
+      &::before {
+        background-image: url("../img/feather.svg");
+      }
+
+      p {
+        width: 187px;
+        margin: 0 auto;
+      }
+    }
+  }
+  .adv-btn {
+    display: none;
+  }
+}

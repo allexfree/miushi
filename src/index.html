@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Miushi</title>
+</head>
+
+<body>
+  <div class="page-header">
+    <h1 class="visually-hidden">Суши и роллы с доставкой</h1>
+
+    <div class="sidebar-menu">
+      <nav class="sidebar-menu__content">
+        <ul class="sidebar-menu__list">
+          <li class="sidebar-menu__item">
+            <input id="input-accord" class="sidebar-menu__item-input" type="checkbox" name="accordion">
+            <label class="sidebar-menu__item-label" for="input-accord">Меню</label>
+            <ul class="sidebar-menu-dropdown">
+              <li class="sidebar-menu-dropdown__item">
+                <a href="sushi.html" class="sidebar-menu-dropdown__link">Суши</a>
+              </li>
+              <li class="sidebar-menu-dropdown__item">
+                <a href="gounkans.html" class="sidebar-menu-dropdown__link">Гунканы</a>
+              </li>
+              <li class="sidebar-menu-dropdown__item">
+                <a href="inari.html" class="sidebar-menu-dropdown__link">Инари</a>
+              </li>
+              <li class="sidebar-menu-dropdown__item">
+                <a href="soups.html" class="sidebar-menu-dropdown__link">Супы</a>
+              </li>
+              <li class="sidebar-menu-dropdown__item">
+                <a href="salads.html" class="sidebar-menu-dropdown__link">Салаты</a>
+              </li>
+              <li class="sidebar-menu-dropdown__item">
+                <a href="hot-snack.html" class="sidebar-menu-dropdown__link">Горячие закуски</a>
+              </li>
+              <li class="sidebar-menu-dropdown__item">
+                <a href="dessert.html" class="sidebar-menu-dropdown__link">Десерты</a>
+              </li>
+              <li class="sidebar-menu-dropdown__item">
+                <a href="drinks.html" class="sidebar-menu-dropdown__link">Напитки</a>
+              </li>
+              <li class="sidebar-menu-dropdown__item">
+                <a href="add.html" class="sidebar-menu-dropdown__link">Дополнительно</a>
+              </li>
+            </ul>
+          </li>
+          <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="discount.html">Акции и скидки</a></li>
+          <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="delivery.html">Доставка и оплата</a></li>
+          <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="news.html">Новости</a></li>
+          <li class="sidebar-menu__item"><a class="sidebar-menu__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="page-header__desktopline">
+      <div class="logo logo--desktop">
+        <a class="logo-link logo-link--desktop"><img src="img/logo-tablet.svg" width="189" height="69" alt="Миюши Суши и роллы"></a>
+      </div>
+      <p class="page-header__desktopline-text">г.Курск, ул.Ленина, д.3</p>
+      <p class="page-header__desktopline-text">
+        <a class="page-header__desktopline-link" href="mailto:78003332222@yandex.ru">78003332222@yandex.ru</a>
+      </p>
+      <p class="page-header__desktopline-text">
+        <a class="page-header__desktopline-link" href="tel:+78003332222">+7 (800) 333 2 222</a>
+        <span>Работаем с 11.00 до 23.00</span>
+      </p>
+      <button class="page-header__desktopline-btn" type="button">Обратный звонок</button>
+    </div>
+
+    <div class="page-header__topline">
+
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <input id="input-menu-accord" class="menu-item__input" type="checkbox" name="menu-accordion">
+            <label class="menu-item__label" for="input-menu-accord">Меню</label>
+            <ul class="menu-item__dropdown">
+              <li class="menu-item__dropdown-item">
+                <a href="sushi.html" class="menu-item__dropdown-link">Суши</a>
+              </li>
+              <li class="menu-item__dropdown-item">
+                <a href="gounkans.html" class="menu-item__dropdown-link">Гунканы</a>
+              </li>
+              <li class="menu-item__dropdown-item">
+                <a href="inari.html" class="menu-item__dropdown-link">Инари</a>
+              </li>
+              <li class="menu-item__dropdown-item">
+                <a href="soups.html" class="menu-item__dropdown-link">Супы</a>
+              </li>
+              <li class="menu-item__dropdown-item">
+                <a href="salads.html" class="menu-item__dropdown-link">Салаты</a>
+              </li>
+              <li class="menu-item__dropdown-item">
+                <a href="hot-snack.html" class="menu-item__dropdown-link">Горячие закуски</a>
+              </li>
+              <li class="menu-item__dropdown-item">
+                <a href="dessert.html" class="menu-item__dropdown-link">Десерты</a>
+              </li>
+              <li class="menu-item__dropdown-item">
+                <a href="drinks.html" class="menu-item__dropdown-link">Напитки</a>
+              </li>
+              <li class="menu-item__dropdown-item">
+                <a href="add.html" class="menu-item__dropdown-link">Дополнительно</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#" class="menu-item__link">Акции и скидки</a></li>
+          <li class="menu-item"><a href="#" class="menu-item__link">Доставка и оплата</a></li>
+          <li class="menu-item"><a href="#" class="menu-item__link">Новости</a></li>
+          <li class="menu-item"><a href="#" class="menu-item__link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-burger">
+        <button class="menu-burger__btn" type="button" aria-label="Открыть закрыть меню">
+          <span></span>
+        </button>
+      </div>
+
+      <div class="logo">
+        <a class="logo-link logo-link--mobile"><img src="img/logo-mobile.svg" width="46" height="46" alt="Миюши Суши и роллы"></a>
+        <a class="logo-link logo-link--tablet"><img src="img/logo-tablet.svg" width="150" height="54" alt="Миюши Суши и роллы"></a>
+      </div>
+
+      <div class="user-block">
+        <a class="user-block__link" href="login.html"><img src="img/user.svg" width="22" height="22" alt="Кабинет"><span>Кабинет</span></a>
+        <a class="user-block__link" href="cart.html"><img src="img/online-shopping-cart.svg" width="22" height="22" alt="Корзина"><span>Корзина</span></a>
+      </div>
+
+    </div>
+
+    <div class="page-header__intro">
+
+      <div class="page-header__intro-slider">
+        <div class="page-header__intro-slide"></div>
+        <div class="page-header__intro-slide"></div>
+        <div class="page-header__intro-slide"></div>
+      </div>
+
+      <div class="page-header__intro-promo">
+        <p class="page-header__intro-title">Счастливые часы</p>
+        <p class="page-header__intro-text">с 11:00 до 16:00 в будние дни</p>
+        <button class="page-header__intro-btn">Подробнее</button>
+      </div>
+    </div>
+
+  </div>
+
+  <main class="page-main">
+    <section class="sets">
+      <h2 class="sets-title">Сеты</h2>
+      <div class="sets-arrows"></div>
+      <div class="sets-slider">
+        <article class="sets-slide">
+          <div class="sets-slide__header">
+            <img src="img/set-8.jpg" width="227" srcset="img/set-8@2x.jpg 2x" height="214" alt="Сет №8">
+          </div>
+          <div class="sets-slide__footer">
+            <h3 class="sets-slide__footer-title">Сет №8</h3>
+            <p class="sets-slide__footer-char">24 шт. | 960 г. | 800 Kkal</p>
+            <div class="sets-slide__footer-count">
+              <p class="sets-slide__footer-price">1 550 <sup>руб.</sup></p>
+              <div class="sets-slide__footer-group">
+                <button class="sets-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="sets-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="sets-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="sets-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="sets-slide">
+          <div class="sets-slide__header">
+            <img src="img/set-mini-5.jpg" srcset="img/set-mini-5@2x.jpg 2x" height="214" width="227" height="214" alt="Минисет №5">
+          </div>
+          <div class="sets-slide__footer">
+            <h3 class="sets-slide__footer-title">Минисет №5</h3>
+            <p class="sets-slide__footer-char">14шт. | 450 г. | 400 Kkal</p>
+            <div class="sets-slide__footer-count">
+              <p class="sets-slide__footer-price">510 <sup>руб.</sup></p>
+              <div class="sets-slide__footer-group">
+                <button class="sets-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="sets-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="sets-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="sets-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="sets-slide sets-slide--veg">
+          <div class="sets-slide__header">
+            <img src="img/set-6.jpg" srcset="img/set-6@2x.jpg 2x" height="214" width="227" height="214" alt="Сет №6">
+          </div>
+          <div class="sets-slide__footer">
+            <h3 class="sets-slide__footer-title">Сет №6</h3>
+            <p class="sets-slide__footer-char">16шт. | 460 г. | 490 Kkal</p>
+            <div class="sets-slide__footer-count">
+              <p class="sets-slide__footer-price">400 <sup>руб.</sup></p>
+              <div class="sets-slide__footer-group">
+                <button class="sets-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="sets-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="sets-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="sets-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="sets-slide">
+          <div class="sets-slide__header">
+            <img src="img/set-8.jpg" srcset="img/set-8@2x.jpg 2x" height="214" width="227" height="214" alt="Сет №8">
+          </div>
+          <div class="sets-slide__footer">
+            <h3 class="sets-slide__footer-title">Сет №8</h3>
+            <p class="sets-slide__footer-char">24шт. | 960 г. | 800 Kkal</p>
+            <div class="sets-slide__footer-count">
+              <p class="sets-slide__footer-price">1550 <sup>руб.</sup></p>
+              <div class="sets-slide__footer-group">
+                <button class="sets-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="sets-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="sets-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="sets-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="sets-slide sets-slide--hit">
+          <div class="sets-slide__header">
+            <img src="img/set-10.jpg" srcset="img/set-10@2x.jpg 2x" height="214" width="227" height="214" alt="Сет №10">
+          </div>
+          <div class="sets-slide__footer">
+            <h3 class="sets-slide__footer-title">Сет №10</h3>
+            <p class="sets-slide__footer-char">72шт. | 1560 г. | 1700 Kkal</p>
+            <div class="sets-slide__footer-count">
+              <p class="sets-slide__footer-price">2050 <sup>руб.</sup></p>
+              <div class="sets-slide__footer-group">
+                <button class="sets-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="sets-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="sets-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="sets-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="rolls">
+      <h2 class="rolls-title">Роллы</h2>
+      <div class="rolls-arrows"></div>
+      <div class="rolls-slider">
+        <article class="rolls-slide">
+          <div class="rolls-slide__header rolls-slide__header--action">
+            <img src="img/unagi.jpg" srcset="img/unagi@2x.jpg 2x" height="214" width="182" height="182" alt="Унаги диру">
+          </div>
+          <div class="rolls-slide__footer">
+            <h3 class="rolls-slide__footer-title">Унаги диру</h3>
+            <p class="rolls-slide__footer-char">8 шт. | 960 г. | 800 Kkal</p>
+            <div class="rolls-slide__footer-count">
+              <p class="rolls-slide__footer-price">280 <sup>руб.</sup></p>
+              <div class="rolls-slide__footer-group">
+                <button class="rolls-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="rolls-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="rolls-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="rolls-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="rolls-slide">
+          <div class="rolls-slide__header">
+            <img src="img/fila.jpg" srcset="img/fila@2x.jpg 2x" height="214" width="182" height="182" alt="Филадельфия">
+          </div>
+          <div class="rolls-slide__footer">
+            <h3 class="rolls-slide__footer-title">Филадельфия</h3>
+            <p class="rolls-slide__footer-char">8 шт. | 450 г. | 400 Kkal</p>
+            <div class="rolls-slide__footer-count">
+              <p class="rolls-slide__footer-price">280 <sup>руб.</sup></p>
+              <div class="rolls-slide__footer-group">
+                <button class="rolls-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="rolls-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="rolls-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="rolls-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="rolls-slide">
+          <div class="rolls-slide__header">
+            <img src="img/mexico.jpg" srcset="img/mexico@2x.jpg 2x" height="214" width="182" height="182" alt="Мексиканский">
+          </div>
+          <div class="rolls-slide__footer">
+            <h3 class="rolls-slide__footer-title">Мексиканский</h3>
+            <p class="rolls-slide__footer-char">8 шт. | 460 г. | 490 Kkal</p>
+            <div class="rolls-slide__footer-count">
+              <p class="rolls-slide__footer-price">290 <sup>руб.</sup></p>
+              <div class="rolls-slide__footer-group">
+                <button class="rolls-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="rolls-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="rolls-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="rolls-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="rolls-slide">
+          <div class="rolls-slide__header">
+            <img src="img/unagi.jpg" srcset="img/unagi@2x.jpg 2x" height="214" width="182" height="182" alt="Унаги диру">
+          </div>
+          <div class="rolls-slide__footer">
+            <h3 class="rolls-slide__footer-title">Унаги диру</h3>
+            <p class="rolls-slide__footer-char">8 шт. | 960 г. | 800 Kkal</p>
+            <div class="rolls-slide__footer-count">
+              <p class="rolls-slide__footer-price">280 <sup>руб.</sup></p>
+              <div class="rolls-slide__footer-group">
+                <button class="rolls-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="rolls-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="rolls-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="rolls-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="rolls-slide">
+          <div class="rolls-slide__header">
+            <img src="img/coonsay.jpg" srcset="img/coonsay@2x.jpg 2x" height="214" width="182" height="182" alt="Кунсей батакон">
+          </div>
+          <div class="rolls-slide__footer">
+            <h3 class="rolls-slide__footer-title">Кунсей батакон</h3>
+            <p class="rolls-slide__footer-char">8 шт. | 250 г. | 350 Kkal</p>
+            <div class="rolls-slide__footer-count">
+              <p class="rolls-slide__footer-price">260 <sup>руб.</sup></p>
+              <div class="rolls-slide__footer-group">
+                <button class="rolls-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="rolls-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="rolls-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="rolls-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="pizza">
+      <h2 class="pizza-title">Пицца</h2>
+      <div class="pizza-arrows"></div>
+      <div class="pizza-slider">
+        <article class="pizza-slide">
+          <div class="pizza-slide__header pizza-slide__header--action">
+            <img src="img/pizza-vega.jpg" srcset="img/pizza-vega@2x.jpg 2x" height="214" width="230" height="215" alt="Вегетарианская пицца">
+          </div>
+          <div class="pizza-slide__footer">
+            <h3 class="pizza-slide__footer-title">Вегетарианская</h3>
+            <p class="pizza-slide__footer-char">33 см | 755 г. | 1800 Kkal</p>
+            <div class="pizza-slide__footer-count">
+              <p class="pizza-slide__footer-price">380 <sup>руб.</sup></p>
+              <div class="pizza-slide__footer-group">
+                <button class="pizza-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="pizza-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="pizza-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="pizza-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="pizza-slide">
+          <div class="pizza-slide__header">
+            <img src="img/pepperony.jpg" srcset="img/pepperony@2x.jpg 2x" height="214" width="230" height="215" alt="Пепперони пицца">
+          </div>
+          <div class="pizza-slide__footer">
+            <h3 class="pizza-slide__footer-title">Пепперони</h3>
+            <p class="pizza-slide__footer-char">33 см | 615 г. | 1400 Kkal</p>
+            <div class="pizza-slide__footer-count">
+              <p class="pizza-slide__footer-price">450 <sup>руб.</sup></p>
+              <div class="pizza-slide__footer-group">
+                <button class="pizza-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="pizza-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="pizza-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="pizza-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="pizza-slide">
+          <div class="pizza-slide__header">
+            <img src="img/classic.jpg" srcset="img/classic@2x.jpg 2x" height="214" width="230" height="215" alt="Классическая пицца">
+          </div>
+          <div class="pizza-slide__footer">
+            <h3 class="pizza-slide__footer-title">Классическая</h3>
+            <p class="pizza-slide__footer-char">33 см | 590 г. | 1490 Kkal</p>
+            <div class="pizza-slide__footer-count">
+              <p class="pizza-slide__footer-price">390 <sup>руб.</sup></p>
+              <div class="pizza-slide__footer-group">
+                <button class="pizza-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="pizza-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="pizza-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="pizza-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="pizza-slide">
+          <div class="pizza-slide__header">
+            <img src="img/pizza-vega.jpg" srcset="img/pizza-vega@2x.jpg 2x" height="214" width="230" height="215" alt="Вегетарианская пицца">
+          </div>
+          <div class="pizza-slide__footer">
+            <h3 class="pizza-slide__footer-title">Вегетарианская</h3>
+            <p class="pizza-slide__footer-char">33 см | 755 г. | 1800 Kkal</p>
+            <div class="pizza-slide__footer-count">
+              <p class="pizza-slide__footer-price">380 <sup>руб.</sup></p>
+              <div class="pizza-slide__footer-group">
+                <button class="pizza-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="pizza-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="pizza-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="pizza-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="pizza-slide">
+          <div class="pizza-slide__header">
+            <img src="img/bavarian.jpg" srcset="img/bavarian@2x.jpg 2x" height="214" width="230" height="215" alt="Баварская пицца">
+          </div>
+          <div class="pizza-slide__footer">
+            <h3 class="pizza-slide__footer-title">Баварская</h3>
+            <p class="pizza-slide__footer-char">33 см | 680 г. | 1350 Kkal</p>
+            <div class="pizza-slide__footer-count">
+              <p class="pizza-slide__footer-price">480 <sup>руб.</sup></p>
+              <div class="pizza-slide__footer-group">
+                <button class="pizza-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="pizza-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="pizza-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="pizza-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wok">
+      <h2 class="wok-title">Wok</h2>
+      <div class="wok-arrows"></div>
+      <div class="wok-slider">
+        <article class="wok-slide">
+          <div class="wok-slide__header">
+            <img src="img/wok-chicken.jpg" srcset="img/wok-chicken@2x.jpg 2x" height="214" width="146" height="146" alt="Wok с курицей">
+          </div>
+          <div class="wok-slide__footer">
+            <h3 class="wok-slide__footer-title">С курицей</h3>
+            <p class="wok-slide__footer-char">400 г. | 1350 Kkal</p>
+            <div class="wok-slide__footer-addition">
+              <select id="add-souses" name="souses">
+                <option value="Китайский">Китайский соус</option>
+                <option value="Терияки">Терияки соус</option>
+                <option value="Соевый">Соевый соус</option>
+              </select>
+            </div>
+            <div class="wok-slide__footer-count">
+              <p class="wok-slide__footer-price">290 <sup>руб.</sup></p>
+              <div class="wok-slide__footer-group">
+                <button class="wok-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="wok-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="wok-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="wok-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="wok-slide">
+          <div class="wok-slide__header">
+            <img src="img/wok-seagoods.jpg" srcset="img/wok-seagoods@2x.jpg 2x" height="214" width="146" height="146"
+              alt="Wok с морепродуктами">
+          </div>
+          <div class="wok-slide__footer">
+            <h3 class="wok-slide__footer-title">С морепродуктами</h3>
+            <p class="wok-slide__footer-char">400 г. | 1350 Kkal</p>
+            <div class="wok-slide__footer-addition">
+              <select id="add-souses" name="souses">
+                <option value="Китайский">Китайский соус</option>
+                <option value="Терияки">Терияки соус</option>
+                <option value="Соевый">Соевый соус</option>
+              </select>
+            </div>
+            <div class="wok-slide__footer-count">
+              <p class="wok-slide__footer-price">430 <sup>руб.</sup></p>
+              <div class="wok-slide__footer-group">
+                <button class="wok-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="wok-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="wok-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="wok-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="wok-slide">
+          <div class="wok-slide__header">
+            <img src="img/wok-vegetables.jpg" srcset="img/wok-vegetables@2x.jpg 2x" height="214" width="146" height="146"
+              alt="Wok с овощами">
+          </div>
+          <div class="wok-slide__footer">
+            <h3 class="wok-slide__footer-title">С овощами</h3>
+            <p class="wok-slide__footer-char">400 г. | 1350 Kkal</p>
+            <div class="wok-slide__footer-addition">
+              <select id="add-souses" name="souses">
+                <option value="Китайский">Китайский соус</option>
+                <option value="Терияки">Терияки соус</option>
+                <option value="Соевый">Соевый соус</option>
+              </select>
+            </div>
+            <div class="wok-slide__footer-count">
+              <p class="wok-slide__footer-price">430 <sup>руб.</sup></p>
+              <div class="wok-slide__footer-group">
+                <button class="wok-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="wok-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="wok-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="wok-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="wok-slide">
+          <div class="wok-slide__header">
+            <img src="img/wok-chicken.jpg" srcset="img/wok-chicken@2x.jpg 2x" height="214" width="146" height="146" alt="Wok с курицей">
+          </div>
+          <div class="wok-slide__footer">
+            <h3 class="wok-slide__footer-title">С курицей</h3>
+            <p class="wok-slide__footer-char">400 г. | 1350 Kkal</p>
+            <div class="wok-slide__footer-addition">
+              <select id="add-souses" name="souses">
+                <option value="Китайский">Китайский соус</option>
+                <option value="Терияки">Терияки соус</option>
+                <option value="Соевый">Соевый соус</option>
+              </select>
+            </div>
+            <div class="wok-slide__footer-count">
+              <p class="wok-slide__footer-price">290 <sup>руб.</sup></p>
+              <div class="wok-slide__footer-group">
+                <button class="wok-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="wok-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="wok-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="wok-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="wok-slide">
+          <div class="wok-slide__header">
+            <img src="img/wok-beef.jpg" srcset="img/wok-beef@2x.jpg 2x" height="214" width="146" height="146" alt="Wok с говядиной">
+          </div>
+          <div class="wok-slide__footer">
+            <h3 class="wok-slide__footer-title">С говядиной</h3>
+            <p class="wok-slide__footer-char">400 г. | 1350 Kkal</p>
+            <div class="wok-slide__footer-addition">
+              <select id="add-souses" name="souses">
+                <option value="Китайский">Китайский соус</option>
+                <option value="Терияки">Терияки соус</option>
+                <option value="Соевый">Соевый соус</option>
+              </select>
+            </div>
+            <div class="wok-slide__footer-count">
+              <p class="wok-slide__footer-price">430 <sup>руб.</sup></p>
+              <div class="wok-slide__footer-group">
+                <button class="wok-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="wok-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="wok-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="wok-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="novelty">
+      <h2 class="novelty-title visually-hidden">Наши новинки и акции</h2>
+      <div class="novelty-arrows"></div>
+      <ul class="novelty-list">
+        <li class="novelty-list__item">
+          <a class="novelty-list__link novelty-list__link--active" href="novelty.html">Новинки</a>
+        </li>
+        <li class="novelty-list__item">
+          <a class="novelty-list__link" href="actions.html">Акции</a>
+        </li>
+      </ul>
+
+      <div class="novelty-slider">
+        <article class="novelty-slide">
+          <div class="novelty-slide__header novelty-slide__header--action">
+            <div class="new"></div>
+            <img src="img/unagi.jpg" width="182" height="182" alt="Унаги диру">
+          </div>
+          <div class="novelty-slide__footer">
+            <h3 class="novelty-slide__footer-title">Унаги диру</h3>
+            <p class="novelty-slide__footer-char">8 шт. | 960 г. | 800 Kkal</p>
+            <div class="novelty-slide__footer-count">
+              <p class="novelty-slide__footer-price">280 <sup>руб.</sup></p>
+              <div class="novelty-slide__footer-group">
+                <button class="novelty-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="novelty-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="novelty-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="novelty-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="novelty-slide">
+          <div class="novelty-slide__header">
+            <div class="new"></div>
+            <img src="img/fila.jpg" width="182" height="182" alt="Филадельфия ролл">
+          </div>
+          <div class="novelty-slide__footer">
+            <h3 class="novelty-slide__footer-title">Филадельфия</h3>
+            <p class="novelty-slide__footer-char">8 шт. | 450 г. | 400 Kkal</p>
+            <div class="novelty-slide__footer-count">
+              <p class="novelty-slide__footer-price">280 <sup>руб.</sup></p>
+              <div class="novelty-slide__footer-group">
+                <button class="novelty-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="novelty-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="novelty-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="novelty-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="novelty-slide">
+          <div class="novelty-slide__header">
+            <div class="new"></div>
+            <img src="img/mexico.jpg" width="182" height="182" alt="Мексиканский ролл">
+          </div>
+          <div class="novelty-slide__footer">
+            <h3 class="novelty-slide__footer-title">Мексиканский</h3>
+            <p class="novelty-slide__footer-char">8 шт. | 460 г. | 490 Kkal</p>
+            <div class="novelty-slide__footer-count">
+              <p class="novelty-slide__footer-price">290 <sup>руб.</sup></p>
+              <div class="novelty-slide__footer-group">
+                <button class="novelty-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="novelty-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="novelty-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="novelty-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="novelty-slide">
+          <div class="novelty-slide__header">
+            <div class="new"></div>
+            <img src="img/unagi.jpg" width="182" height="182" alt="Унаги диру">
+          </div>
+          <div class="novelty-slide__footer">
+            <h3 class="novelty-slide__footer-title">Унаги диру</h3>
+            <p class="novelty-slide__footer-char">8 шт.. | 960 г. | 800 Kkal</p>
+            <div class="novelty-slide__footer-count">
+              <p class="novelty-slide__footer-price">280 <sup>руб.</sup></p>
+              <div class="novelty-slide__footer-group">
+                <button class="novelty-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="novelty-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="novelty-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="novelty-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+        <article class="novelty-slide">
+          <div class="novelty-slide__header">
+            <div class="new"></div>
+            <img src="img/coonsay.jpg" width="182" height="182" alt="Кунсей батакон">
+          </div>
+          <div class="novelty-slide__footer">
+            <h3 class="novelty-slide__footer-title">Кунсей батакон</h3>
+            <p class="novelty-slide__footer-char">8 шт. | 250 г. | 350 Kkal</p>
+            <div class="novelty-slide__footer-count">
+              <p class="novelty-slide__footer-price">260 <sup>руб.</sup></p>
+              <div class="novelty-slide__footer-group">
+                <button class="novelty-slide__footer-btn" aria-label="Уменьшить количество"></button>
+                <input class="novelty-slide__footer-input" type="text" value="1" min="1" max="99">
+                <button class="novelty-slide__footer-btn" aria-label="Увеличить количество"></button>
+              </div>
+            </div>
+            <a href="basket.html" class="novelty-slide__footer-link">В корзину</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="adv">
+      <h2 class="adv-title">10 причин <span>купить у нас</span></h2>
+      <ul class="adv-list">
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">100% ручная работа</p>
+        </li>
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">Мы используем только дорогой рис из Японии</p>
+        </li>
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">Вся пицца готовится из итальянской муки и Итальянского соуса</p>
+        </li>
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">100% свежие ингредиенты</p>
+        </li>
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">Больше начинки, меньше риса!</p>
+        </li>
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">Постоянный контроль качества на всех этапах</p>
+        </li>
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">Самые низкие цена на рынке! (Нет ресторанной наценки)</p>
+        </li>
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">Мы не заменяем авокадо огурцом.!</p>
+        </li>
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">Только охлажденная рыба (никакой заморозки)</p>
+        </li>
+        <li class="adv-list__item">
+          <p class="adv-list__item-text">Мы не ипользуем майонез!</p>
+        </li>
+      </ul>
+      <button class="adv-btn">Показать все</button>
+    </section>
+
+    <section class="reviews">
+      <h2 class="reviews-title">Отзывы</h2>
+      <div class="reviews-wrapper">
+        <article class="review">
+          <div class="review-header">
+            <div class="review-header__block">
+              <img class="review-header__block-img" src="img/user-avatar.jpg" width="66" height="66" alt="Аватар пользователя">
+            </div>
+            <div class="review-header__block">
+              <h4 class="review-header__block-title">Надежда Наширбанова</h4>
+              <p class="review-header__block-text"><time datetime="">5 авг 2017 в 9:58</time></p>
+            </div>
+          </div>
+          <div class="review-main">
+            <p class="review-main__text">Спасибо за быструю доставку! Отличный поздний ужин после рабочего дня )</p>
+            <img class="review-main__img" src="img/user-comment-photo.jpg" width="106" height="142" alt="Фото">
+          </div>
+          <div class="review-footer">
+            <div class="review-footer__social">
+              <button class="review-footer__social-like"></button>
+              <button class="review-footer__social-comment">2</button>
+              <button class="review-footer__social-share"></button>
+            </div>
+            <button class="review-footer__btn">Подписаться</button>
+          </div>
+        </article>
+        <article class="review">
+          <div class="review-header">
+            <div class="review-header__block">
+              <img class="review-header__block-img" src="img/user-avatar.jpg" width="66" height="66" alt="Аватар пользователя">
+            </div>
+            <div class="review-header__block">
+              <h4 class="review-header__block-title">Надежда Наширбанова</h4>
+              <p class="review-header__block-text"><time datetime="">5 авг 2017 в 9:58</time></p>
+            </div>
+          </div>
+          <div class="review-main">
+            <p class="review-main__text">Спасибо за быструю доставку! Отличный поздний ужин после рабочего дня )</p>
+            <img class="review-main__img" src="img/user-comment-photo.jpg" width="106" height="142" alt="Фото">
+          </div>
+          <div class="review-footer">
+            <div class="review-footer__social">
+              <button class="review-footer__social-like"></button>
+              <button class="review-footer__social-comment">2</button>
+              <button class="review-footer__social-share"></button>
+            </div>
+            <button class="review-footer__btn">Подписаться</button>
+          </div>
+        </article>
+        <article class="review">
+          <div class="review-header">
+            <div class="review-header__block">
+              <img class="review-header__block-img" src="img/user-avatar.jpg" width="66" height="66" alt="Аватар пользователя">
+            </div>
+            <div class="review-header__block">
+              <h4 class="review-header__block-title">Надежда Наширбанова</h4>
+              <p class="review-header__block-text"><time datetime="">5 авг 2017 в 9:58</time></p>
+            </div>
+          </div>
+          <div class="review-main">
+            <p class="review-main__text">Спасибо за быструю доставку! Отличный поздний ужин после рабочего дня )</p>
+            <img class="review-main__img" src="img/user-comment-photo.jpg" width="106" height="142" alt="Фото">
+          </div>
+          <div class="review-footer">
+            <div class="review-footer__social">
+              <button class="review-footer__social-like"></button>
+              <button class="review-footer__social-comment">2</button>
+              <button class="review-footer__social-share"></button>
+            </div>
+            <button class="review-footer__btn">Подписаться</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <form class="main-form" action="#" method="post">
+      <div class="main-form__header">
+        <p class="main-form__header-title">Есть вопросы?</p>
+        <p class="main-form__header-text">Оставьте <span>свои контакты</span></p>
+      </div>
+      <div class="main-form__group">
+        <input class="main-form__input" type="text" placeholder="Ваше имя">
+        <input class="main-form__input" type="tel" placeholder="Телефон" required>
+        <button class="main-form__btn" type="submit">Отправить</button>
+      </div>
+      <div class="main-form__footer">
+        <p class="main-form__footer-text">Нажимая на кнопку «Отправить», вы даете согласие на обработку своих
+          персональных данных.</p>
+      </div>
+    </form>
+
+    <section class="about">
+      <h2 class="about-title">О компании</h2>
+      <h3 class="about-descr">Заказ и доставка роллов, пиццы и <span>Wok</span>(Вок) в городе Курск</h3>
+      <div class="about-text">
+        <p>Суши МИЮШИ открылись в октябре 2012г. и уже завоевали успех у тех, кто ценит японскую кухню и качественное
+          приготовление блюд.</p>
+        <p>С 2013 года мы осуществляем не только доставку на дом, теперь для вас открыт наш уютный небольшой зал. Придя
+          сюда, вы сможете плотно пообедать, насладиться прекрасными напитками, посидеть с друзьями или обзавестись
+          новыми знакомствами.</p>
+        <p>Открывая зал, Мы преследовали цель предоставить своим посетителям максимум удобства и комфорта, поэтому,
+          придя сюда в первый раз, вы почувствуете себя как рыба в воде, окунувшись в домашнюю и теплую обстановку!</p>
+        <p>Особое внимание мы уделяем организации доставки суши и других блюд, которая осуществляется только по г.
+          Курску. Четкая и слаженная работа курьеров позволяет максимально сократить время от приготовления блюда до
+          его попадания на стол заказчику. Как правило, оно составляет от 20 до 60 минут в зависимости от
+          местонахождения клиента. Операторы службы доставки всегда осведомлены обо всех изменениях времени доставки и
+          предупреждают клиентов заранее, а при возможных серьезных задержках в связи с дорожной ситуацией предложат
+          Вам альтернативу. Мы беремся только за ту работу, которую можем выполнить в срок.</p>
+        <p>В меню суши МИЮШИ представлено все многообразие японской кухни. Классические суши, и роллы приготовлены в
+          соответствии с традиционными рецептами. Для любителей нежных и тающих во рту блюд предлагаются роллы с мясом
+          краба, а также для больших любителей копченого угря потрясающий ролл Дракон. Для желающих пробовать что-то
+          новое и необычное – острые ГУНКАНЫ и новинка нашего меню - ИНАРИ, широкий выбор горячих роллов. Большим
+          компаниям будет удобно заказать суши и роллы, объединенные в сеты, включающие сразу несколько видов каждого
+          из этих блюд. Кроме того, меню суши МИЮШИ не ограничено только японской кухней, здесь всегда можно заказать
+          горячие и холодные блюда ЛАПША или РИС WOK с различными мясными и рыбными наполнителями, салаты, горячие
+          закуски и различные напитки.</p>
+        <p>Оформив у нас заказ суши на дом, клиент может выбрать удобный ему способ оплаты: наличными при получении
+          заказа или банковской картой VISA, MasterCard при заполнении специальной формы заказа на сайте или на дому
+          через переносной терминал (заранее сообщив оператору о форме оплаты).</p>
+      </div>
+      <button class="about-btn">Показать ещё</button>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer-menu">
+      <nav class="page-footer-menu__content">
+        <ul class="page-footer-menu__list">
+          <li class="page-footer-menu__item">
+            <input id="footer-input-menu" class="page-footer-menu__item-input" type="checkbox" name="footer-menu">
+            <label class="page-footer-menu__item-label" for="footer-input-menu">Меню</label>
+            <ul class="page-footer-menu-dropdown">
+              <li class="page-footer-menu-dropdown__item">
+                <a href="sushi.html" class="page-footer-menu-dropdown__link">Суши</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="gounkans.html" class="page-footer-menu-dropdown__link">Гунканы</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="inari.html" class="page-footer-menu-dropdown__link">Инари</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="soups.html" class="page-footer-menu-dropdown__link">Супы</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="salads.html" class="page-footer-menu-dropdown__link">Салаты</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="hot-snack.html" class="page-footer-menu-dropdown__link">Горячие закуски</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="dessert.html" class="page-footer-menu-dropdown__link">Десерты</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="drinks.html" class="page-footer-menu-dropdown__link">Напитки</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="add.html" class="page-footer-menu-dropdown__link">Дополнительно</a>
+              </li>
+            </ul>
+          </li>
+          <li class="page-footer-menu__item">
+            <input id="footer-input-sets" class="page-footer-menu__item-input" type="checkbox" name="sets">
+            <label class="page-footer-menu__item-label" for="footer-input-sets">Сеты</label>
+            <ul class="page-footer-menu-dropdown">
+              <li class="page-footer-menu-dropdown__item">
+                <a href="up-to-500-sets.html" class="page-footer-menu-dropdown__link">До 500 руб.</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="up-to-1000-sets.html" class="page-footer-menu-dropdown__link">До 1000 руб. (для двоих)</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="up-to-1500-sets.html" class="page-footer-menu-dropdown__link">До 1500 руб. (для двоих - троих)</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="up-to-2000-sets.html" class="page-footer-menu-dropdown__link">До 2000 руб. (большая компания)</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="from-2000-sets.html" class="page-footer-menu-dropdown__link">от 2000 руб. (очень большая
+                  компания)</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="with-eel-sets.html" class="page-footer-menu-dropdown__link">С угрем</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="hot-sets.html" class="page-footer-menu-dropdown__link">Горячие</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="baked-sets.html" class="page-footer-menu-dropdown__link">Запеченые</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="sushi-sets.html" class="page-footer-menu-dropdown__link">Суши</a>
+              </li>
+            </ul>
+          </li>
+          <li class="page-footer-menu__item">
+            <input id="footer-input-rolls" class="page-footer-menu__item-input" type="checkbox" name="rolls">
+            <label class="page-footer-menu__item-label" for="footer-input-rolls">Роллы</label>
+            <ul class="page-footer-menu-dropdown">
+              <li class="page-footer-menu-dropdown__item">
+                <a href="classic-rolls.html" class="page-footer-menu-dropdown__link">Традиционные/Классические</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="simple-rolls.html" class="page-footer-menu-dropdown__link">Простые</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="warm-rolls.html" class="page-footer-menu-dropdown__link">Теплые</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="baked-rolls.html" class="page-footer-menu-dropdown__link">Запеченые</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="vegetarian-rolls.html" class="page-footer-menu-dropdown__link">Вегитарианский</a>
+              </li>
+            </ul>
+          </li>
+          <li class="page-footer-menu__item">
+            <input id="footer-input-wok" class="page-footer-menu__item-input" type="checkbox" name="wok">
+            <label class="page-footer-menu__item-label" for="footer-input-wok">Вок</label>
+            <ul class="page-footer-menu-dropdown">
+              <li class="page-footer-menu-dropdown__item">
+                <a href="egg-wok.html" class="page-footer-menu-dropdown__link">Яичная</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="udon-wok.html" class="page-footer-menu-dropdown__link">Удон</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="buckwheat-wok.html" class="page-footer-menu-dropdown__link">Гречневая</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="glass-wok.html" class="page-footer-menu-dropdown__link">Стеклянная</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="rice-wok.html" class="page-footer-menu-dropdown__link">Рис</a>
+              </li>
+            </ul>
+          </li>
+          <li class="page-footer-menu__item">
+            <input id="footer-input-pizza" class="page-footer-menu__item-input" type="checkbox" name="pizza">
+            <label class="page-footer-menu__item-label" for="footer-input-pizza">Пицца</label>
+            <ul class="page-footer-menu-dropdown">
+              <li class="page-footer-menu-dropdown__item">
+                <a href="meat-pizza.html" class="page-footer-menu-dropdown__link">Мясная</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="fish-pizza.html" class="page-footer-menu-dropdown__link">Рыбная</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="cheese-pizza.html" class="page-footer-menu-dropdown__link">Сырная</a>
+              </li>
+              <li class="page-footer-menu-dropdown__item">
+                <a href="vegetarian-pizza.html" class="page-footer-menu-dropdown__link">Вегитарианская</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="page-footer__bottomline">
+      <p class="page-footer__bottomline-copyright">Миюши &copy; 2017</p>
+      <a class="page-footer__bottomline-link" href="agreement.html">Соглашение на обработку персональных данных</a>
+      <div class="page-footer__bottomline-social">
+        <a href="https://facebook.com"></a>
+        <a href="https://instagram.com"></a>
+        <a href="https://vk.com"></a>
+      </div>
+    </div>
+  </footer>
+
+  <link rel="stylesheet" href="libs/slick/slick.css" />
+  <link rel="stylesheet" href="libs/slick/slick-theme.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="libs/slick/slick.min.js"></script>
+  <script src="js/common.js"></script>
+</body>
+
+</html>
