@@ -171,3 +171,124 @@
     background-position: 98%;
   }
 }
+
+@media (min-width: 1170px) {
+  .page-footer {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 68px 7px 0 23px;
+  }
+
+  .page-footer-menu__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .page-footer-menu__item {
+    width: auto;
+    border-bottom: none;
+  }
+
+  .page-footer-menu__item-input {
+    &:checked {
+      & ~ ul {
+        padding: 0;
+        background-color: transparent;
+      }
+
+      & + label {
+        background-image: none;
+      }
+    }
+
+  }
+
+  .page-footer-menu__item-label {
+    cursor: default;
+    background-image: none;
+    margin-bottom: 12px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    &[aria-label="Открыть/закрыть меню"] {
+      display: none;
+      & + ul a {
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    }
+
+    &[aria-label="Открыть/закрыть меню сеты"] {
+      & + ul {
+        height: 155px;
+        max-height: 155px;
+        width: 230px;
+        max-width: 230px;
+        margin-right: 156px;
+      }
+    }
+
+    &[aria-label="Открыть/закрыть меню роллы"] {
+      & + ul {
+        margin-right: 78px;
+      }
+    }
+
+    &[aria-label="Открыть/закрыть меню вок"] {
+      & + ul {
+        margin-right: 101px;
+      }
+    }
+
+    &[aria-label="Открыть/закрыть меню пицца"] {
+      & + ul {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .page-footer-menu-dropdown {
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+    padding: 0;
+    margin-right: 121px;
+  }
+
+  .page-footer-menu-dropdown__link {
+    line-height: 24px;
+  }
+
+  .page-footer__bottomline {
+    align-items: flex-start;
+    padding: 45px 0 55px;
+  }
+
+  .page-footer__bottomline-copyright {
+    padding-top: 2px;
+  }
+
+  .page-footer__bottomline-link {
+    margin-right: 370px;
+    padding-top: 3px;
+  }
+
+  .page-footer__bottomline-social {
+    padding-top: 3px;
+    a {
+      width: 27px;
+      height: 27px;
+      margin-right: 15px;
+      &:first-child {
+        order: 1;
+        margin-right: 0;
+      }
+
+      &:last-child {
+        margin-right: 15px;
+      }
+    }
+  }
+}

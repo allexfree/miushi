@@ -70,3 +70,9 @@ iframe {
     transform: rotate(-45deg);
   }
 }
+
+@media (min-width: 1170px) {
+  .new {
+    top: -7px;
+  }
+}

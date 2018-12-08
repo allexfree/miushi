@@ -128,7 +128,8 @@
 
       <div class="user-block">
         <a class="user-block__link" href="login.html"><img src="img/user.svg" width="22" height="22" alt="Кабинет"><span>Кабинет</span></a>
-        <a class="user-block__link" href="cart.html"><img src="img/online-shopping-cart.svg" width="22" height="22" alt="Корзина"><span>Корзина</span></a>
+        <a class="user-block__link" href="cart.html"><img src="img/online-shopping-cart.svg" width="22" height="22" alt="Корзина"><span
+            class="user-block__link-span"></span><span>Корзина</span></a>
       </div>
 
     </div>
@@ -800,18 +801,20 @@
     </section>
 
     <form class="main-form" action="#" method="post">
-      <div class="main-form__header">
-        <p class="main-form__header-title">Есть вопросы?</p>
-        <p class="main-form__header-text">Оставьте <span>свои контакты</span></p>
-      </div>
-      <div class="main-form__group">
-        <input class="main-form__input" type="text" placeholder="Ваше имя">
-        <input class="main-form__input" type="tel" placeholder="Телефон" required>
-        <button class="main-form__btn" type="submit">Отправить</button>
-      </div>
-      <div class="main-form__footer">
-        <p class="main-form__footer-text">Нажимая на кнопку «Отправить», вы даете согласие на обработку своих
-          персональных данных.</p>
+      <div class="main-form__wrapper">
+        <div class="main-form__header">
+          <p class="main-form__header-title">Есть вопросы?</p>
+          <p class="main-form__header-text">Оставьте <span>свои контакты</span></p>
+        </div>
+        <div class="main-form__group">
+          <input class="main-form__input" type="text" placeholder="Ваше имя">
+          <input class="main-form__input" type="tel" placeholder="Телефон" required>
+          <button class="main-form__btn" type="submit">Отправить</button>
+        </div>
+        <div class="main-form__footer">
+          <p class="main-form__footer-text">Нажимая на кнопку «Отправить», вы даете согласие на обработку своих
+            персональных данных.</p>
+        </div>
       </div>
     </form>
 
@@ -854,7 +857,7 @@
         <ul class="page-footer-menu__list">
           <li class="page-footer-menu__item">
             <input id="footer-input-menu" class="page-footer-menu__item-input" type="checkbox" name="footer-menu">
-            <label class="page-footer-menu__item-label" for="footer-input-menu">Меню</label>
+            <label class="page-footer-menu__item-label" for="footer-input-menu" aria-label="Открыть/закрыть меню">Меню</label>
             <ul class="page-footer-menu-dropdown">
               <li class="page-footer-menu-dropdown__item">
                 <a href="sushi.html" class="page-footer-menu-dropdown__link">Суши</a>
@@ -887,7 +890,7 @@
           </li>
           <li class="page-footer-menu__item">
             <input id="footer-input-sets" class="page-footer-menu__item-input" type="checkbox" name="sets">
-            <label class="page-footer-menu__item-label" for="footer-input-sets">Сеты</label>
+            <label class="page-footer-menu__item-label" for="footer-input-sets" aria-label="Открыть/закрыть меню сеты">Сеты</label>
             <ul class="page-footer-menu-dropdown">
               <li class="page-footer-menu-dropdown__item">
                 <a href="up-to-500-sets.html" class="page-footer-menu-dropdown__link">До 500 руб.</a>
@@ -921,7 +924,7 @@
           </li>
           <li class="page-footer-menu__item">
             <input id="footer-input-rolls" class="page-footer-menu__item-input" type="checkbox" name="rolls">
-            <label class="page-footer-menu__item-label" for="footer-input-rolls">Роллы</label>
+            <label class="page-footer-menu__item-label" for="footer-input-rolls" aria-label="Открыть/закрыть меню роллы">Роллы</label>
             <ul class="page-footer-menu-dropdown">
               <li class="page-footer-menu-dropdown__item">
                 <a href="classic-rolls.html" class="page-footer-menu-dropdown__link">Традиционные/Классические</a>
@@ -942,7 +945,7 @@
           </li>
           <li class="page-footer-menu__item">
             <input id="footer-input-wok" class="page-footer-menu__item-input" type="checkbox" name="wok">
-            <label class="page-footer-menu__item-label" for="footer-input-wok">Вок</label>
+            <label class="page-footer-menu__item-label" for="footer-input-wok" aria-label="Открыть/закрыть меню вок">Вок</label>
             <ul class="page-footer-menu-dropdown">
               <li class="page-footer-menu-dropdown__item">
                 <a href="egg-wok.html" class="page-footer-menu-dropdown__link">Яичная</a>
@@ -963,7 +966,7 @@
           </li>
           <li class="page-footer-menu__item">
             <input id="footer-input-pizza" class="page-footer-menu__item-input" type="checkbox" name="pizza">
-            <label class="page-footer-menu__item-label" for="footer-input-pizza">Пицца</label>
+            <label class="page-footer-menu__item-label" for="footer-input-pizza" aria-label="Открыть/закрыть меню пицца">Пицца</label>
             <ul class="page-footer-menu-dropdown">
               <li class="page-footer-menu-dropdown__item">
                 <a href="meat-pizza.html" class="page-footer-menu-dropdown__link">Мясная</a>

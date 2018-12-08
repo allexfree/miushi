@@ -219,3 +219,51 @@
     }
   }
 }
+
+@media (min-width: 1170px) {
+  .reviews {
+    margin-bottom: 108px;
+  }
+
+  .reviews-title {
+    margin-bottom: 70px;
+    padding-left: 15px;
+    font-size: 60px;
+    line-height: 28.43px;
+    letter-spacing: -0.3px;
+    &::before,
+    &::after {
+      top: -6px;
+    }
+
+    &::before {
+      left: -122px;
+    }
+
+    &::after {
+      left: 251px;
+    }
+  }
+
+  .reviews-wrapper {
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 7px 0 23px;
+    box-sizing: border-box;
+  }
+
+  .review {
+    width: 360px;
+    margin-right: 0;
+    padding: 20px 45px 48px;
+    &:nth-child(2) {
+      margin-right: 0;
+    }
+
+    &:last-child {
+      display: flex;
+      margin-right: 0;
+    }
+  }
+}

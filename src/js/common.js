@@ -7,15 +7,36 @@ $(document).ready(function () {
   })
 
   $('.page-header__intro-slider').slick({
+    mobileFirst: true,
     dots: true,
     dotsClass: 'page-header__intro-pagination',
-    autoplay: true,
-    autoplaySpeed: 6000,
-    arrows: false,
     infinite: true,
     speed: 500,
     fade: true,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    responsive: [
+      {
+        breakpoint: 1170,
+        settings: {
+          arrows: true,
+          appendArrows: $('.page-header__intro'),
+          prevArrow: '<button type="button" class="page-header__intro-preview" aria-label="Предыдущий слайд"></button>',
+          nextArrow: '<button type="button" class="page-header__intro-next" aria-label="Следующий слайд"></button>'
+        }
+      },
+      {
+        breakpoint: 750,
+        settings: {
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          arrows: false
+        }
+      }
+    ]
   })
 
   $('.sets-slider').slick({
@@ -25,6 +46,19 @@ $(document).ready(function () {
     variableWidth: true,
     slidesToShow: 3,
     responsive: [
+      {
+        breakpoint: 1169,
+        settings:{
+          centerMode: false,
+          slidesToShow: 4,
+          dots: true,
+          arrows: true,
+          appendArrows: $('.sets-arrows'),
+          prevArrow: '<button type="button" class="sets-arrows__preview" aria-label="Предыдущий слайд"></button>',
+          nextArrow: '<button type="button" class="sets-arrows__next" aria-label="Следующий слайд"></button>',
+          dotsClass: 'sets-slider__pagination'
+        }
+      },
       {
         breakpoint: 749,
         settings: {
@@ -52,6 +86,19 @@ $(document).ready(function () {
     slidesToShow: 3,
     responsive: [
       {
+        breakpoint: 1169,
+        settings:{
+          centerMode: false,
+          slidesToShow: 4,
+          dots: true,
+          arrows: true,
+          appendArrows: $('.rolls-arrows'),
+          prevArrow: '<button type="button" class="rolls-arrows__preview" aria-label="Предыдущий слайд"></button>',
+          nextArrow: '<button type="button" class="rolls-arrows__next" aria-label="Следующий слайд"></button>',
+          dotsClass: 'rolls-slider__pagination'
+        }
+      },
+      {
         breakpoint: 749,
         settings: {
           dots: true,
@@ -77,6 +124,19 @@ $(document).ready(function () {
     variableWidth: true,
     slidesToShow: 3,
     responsive: [
+      {
+        breakpoint: 1169,
+        settings:{
+          centerMode: false,
+          slidesToShow: 4,
+          dots: true,
+          arrows: true,
+          appendArrows: $('.pizza-arrows'),
+          prevArrow: '<button type="button" class="pizza-arrows__preview" aria-label="Предыдущий слайд"></button>',
+          nextArrow: '<button type="button" class="pizza-arrows__next" aria-label="Следующий слайд"></button>',
+          dotsClass: 'pizza-slider__pagination'
+        }
+      },
       {
         breakpoint: 749,
         settings: {
@@ -104,6 +164,19 @@ $(document).ready(function () {
     slidesToShow: 3,
     responsive: [
       {
+        breakpoint: 1169,
+        settings:{
+          centerMode: false,
+          slidesToShow: 4,
+          dots: true,
+          arrows: true,
+          appendArrows: $('.wok-arrows'),
+          prevArrow: '<button type="button" class="wok-arrows__preview" aria-label="Предыдущий слайд"></button>',
+          nextArrow: '<button type="button" class="wok-arrows__next" aria-label="Следующий слайд"></button>',
+          dotsClass: 'wok-slider__pagination'
+        }
+      },
+      {
         breakpoint: 749,
         settings: {
           dots: true,
@@ -129,6 +202,19 @@ $(document).ready(function () {
     variableWidth: true,
     slidesToShow: 3,
     responsive: [
+      {
+        breakpoint: 1169,
+        settings:{
+          centerMode: false,
+          slidesToShow: 4,
+          dots: true,
+          arrows: true,
+          appendArrows: $('.novelty-arrows'),
+          prevArrow: '<button type="button" class="novelty-arrows__preview" aria-label="Предыдущий слайд"></button>',
+          nextArrow: '<button type="button" class="novelty-arrows__next" aria-label="Следующий слайд"></button>',
+          dotsClass: 'novelty-slider__pagination'
+        }
+      },
       {
         breakpoint: 749,
         settings: {
